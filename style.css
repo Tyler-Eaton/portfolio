@@ -4,14 +4,14 @@
 :root {
     --ff-primary: 'Montserrat', sans-serif;
     --ff-secondary: 'Source Sans Pro', sans-serif;
-    
+
     --fw-reg: 400;
     --fw-bold: 900;
-    
+
     --clr-light: #fff;
     --clr-dark: #212529;
     --clr-accent: #FDFFFC;
-    
+
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -122,7 +122,7 @@ span.auto-type, span.typed-cursor {
   }
 }
 
-/* 
+/*
 #hero-content img {
   width: 300px;
   border-radius: 50%;
@@ -229,8 +229,8 @@ a {
   z-index: 1;
 }
 
-.instagram {
-  background: linear-gradient(200deg, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75);
+.github {
+  background: linear-gradient(200deg, #4d58d1, #4d58d1);
   z-index: 2;
 }
 
@@ -291,7 +291,7 @@ a {
 
   background: #000 url(assets/selfie.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom 50px, right 100px;
   transform: rotateX(0) rotateY(0);
   pointer-events: none;
   transition: 100ms linear transform;
