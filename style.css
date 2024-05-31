@@ -110,7 +110,6 @@ span.auto-type, span.typed-cursor {
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
@@ -290,8 +289,9 @@ a {
   margin-right: auto;
 
   background: #000 url(assets/DSC01503.jpg);
-  background-size: cover;
-  background-position: bottom 50px, right 100px;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: -90px -40px;
   transform: rotateX(0) rotateY(0);
   pointer-events: none;
   transition: 100ms linear transform;
